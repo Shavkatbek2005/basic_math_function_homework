@@ -1,3 +1,4 @@
+#
 def main(a, b):
     '''find the absolute value of the difference between a and b. Return it.
     
@@ -8,4 +9,5 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    return abs(a-b)
+print(main(5,3))
